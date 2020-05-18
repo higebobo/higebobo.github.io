@@ -1,5 +1,8 @@
 # README
 
+* contentful:space:gatsby-mate使用
+* gatsby-mateのユーザレポジトリ版(masterブランチに出力)
+
 ## Setup
 
 サイト作成
