@@ -13,7 +13,7 @@ npx gatsby new gatsby-mate https://github.com/EmaSuriano/gatsby-starter-mate
 
 ### Spaceの作成
 
-1. Contentful(https://www.contentful.com/)にGithubアカンとでログインし"gatsby-mate"というspaceを作成
+1. Contentful(https://www.contentful.com/) にGithubアカンとでログインし"gatsby-mate"というspaceを作成
 2. Settings>API KeysでContent management tokensタブからPersonal access tokensを生成
     * Name: gatsby-mate
     * これがmanagement tokenとなる(**生成後は確認できないのでコピーしておく**)
