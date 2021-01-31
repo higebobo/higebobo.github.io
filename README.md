@@ -3,6 +3,10 @@
 - contentful:space:gatsby-mate 使用
 - gatsby-mate のユーザレポジトリ版(master ブランチに出力)
 
+## Note
+
+- うまく動かない(2021/01/31)
+
 ## Setup
 
 サイト作成
