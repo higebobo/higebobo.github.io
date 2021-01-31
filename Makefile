@@ -13,11 +13,11 @@ run: ## Run server
 build: ## Build site on public directory
 	@gatsby build
 
-clean: ## Clean cache, public directory
-	@npm run clean
+clean: ## Clean
+	@gatsby clean
 
-deploy: ## Deploy on Github Pages
-	@npm run deploy
+dist-clean: ## Dsit clean
+	@rm -fr node_modules package-lock.json
 
 help: ## Print this help
 	@echo 'Usage: make [target]'

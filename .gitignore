@@ -66,8 +66,9 @@ netlify.toml
 
 # mac FS
 .DS_Store
-.vscode/
+#.vscode/
 
 *~
 *.bak
 *.orig
+package-lock.json
