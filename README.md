@@ -2,6 +2,8 @@
 
 * contentful:space:gatsby-mate 使用
 * gatsby-mate のユーザレポジトリ版(master ブランチに出力)
+* contentfulを更新とリンクしていないのでnetlifyのほうがよいかも
+    * Actionsを再実行するかレポジトリの更新でActionsを起動
 
 ## セットアップ
 
