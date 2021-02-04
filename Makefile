@@ -8,7 +8,7 @@ ifneq ("$(wildcard ./.env)","")
 endif
 
 run: ## Run server
-	@yarn setup
+	@yarn start
 
 run-gatsby: ## Run server
 	@gatsby develop
