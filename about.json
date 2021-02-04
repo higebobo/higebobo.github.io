@@ -1,0 +1,446 @@
+{
+  "name": "Mate",
+  "description": "Gatsby v2 starter to create a top notch portfolio!",
+  "roles": [
+    "Quick setup 🚀",
+    "Responsive 📱",
+    "PWA ✨",
+    "Contentful CMS 🔧"
+  ],
+  "socialLinks": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hjmyqennm3jj"
+          }
+        },
+        "id": "4SrlLN9bt6Yew2UyGgM06a",
+        "type": "Entry",
+        "createdAt": "2020-05-18T00:49:24.538Z",
+        "updatedAt": "2021-02-04T02:50:53.402Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "socialLink"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Github",
+        "url": "https://github.com/EmaSuriano/gatsby-starter-mate/blob/master/README.md",
+        "fontAwesomeIcon": "github"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hjmyqennm3jj"
+          }
+        },
+        "id": "3DpgtG8qI8QCWyEAuME4Ku",
+        "type": "Entry",
+        "createdAt": "2020-05-18T00:49:26.836Z",
+        "updatedAt": "2021-02-04T02:50:56.830Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "socialLink"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Medium",
+        "url": "https://medium.com/@emasuriano",
+        "fontAwesomeIcon": "medium"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hjmyqennm3jj"
+          }
+        },
+        "id": "114ApRkJZq640w8G2GwM8w",
+        "type": "Entry",
+        "createdAt": "2020-05-18T00:49:26.387Z",
+        "updatedAt": "2021-02-04T02:50:56.020Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "socialLink"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Contact me",
+        "url": "https://emanuelsuriano.typeform.com/to/OeETl6",
+        "fontAwesomeIcon": "envelope"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hjmyqennm3jj"
+          }
+        },
+        "id": "4J6WFTjoMUCmQKuKAaOsqE",
+        "type": "Entry",
+        "createdAt": "2020-05-18T00:49:25.683Z",
+        "updatedAt": "2021-02-04T02:50:55.145Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "socialLink"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Twitter",
+        "url": "https://twitter.com/emasuriano",
+        "fontAwesomeIcon": "twitter"
+      }
+    }
+  ],
+  "profile": {
+    "sys": {
+      "space": {
+        "sys": {
+          "type": "Link",
+          "linkType": "Space",
+          "id": "hjmyqennm3jj"
+        }
+      },
+      "id": "6nf3rNaaVaUqYcoAcciSeC",
+      "type": "Asset",
+      "createdAt": "2020-05-18T00:49:21.434Z",
+      "updatedAt": "2021-02-04T02:50:47.725Z",
+      "environment": {
+        "sys": {
+          "id": "master",
+          "type": "Link",
+          "linkType": "Environment"
+        }
+      },
+      "revision": 3,
+      "locale": "en-US"
+    },
+    "fields": {
+      "title": "Mate Logo",
+      "description": "Mate Logo",
+      "file": {
+        "url": "//images.ctfassets.net/hjmyqennm3jj/6nf3rNaaVaUqYcoAcciSeC/c271c6b3d2cec931cc764da3b73183ea/Mate_Logo.png",
+        "details": {
+          "size": 52527,
+          "image": {
+            "width": 946,
+            "height": 948
+          }
+        },
+        "fileName": "Mate Logo.png",
+        "contentType": "image/png"
+      }
+    }
+  },
+  "aboutMe": "Hello 👋 I'm Mate a gatsby starter which is focus on simplicity and extensibility. It's build with Gatsby(duh), [Rebass](https://jxnblk.com/rebass/) (styled-component system) and [Contentful](https://www.contentful.com/).\n\nThe starter will give you 4 sections (it's really easy to add more if you want 😃):\n* [Landing:](#home) Displays a nice greeting with your name, also your roles (what you  are) and all your social links.\n* [About:](#about) Show the about section where you can write about who you are, what you like to do, etc. Also you can add a photo next to it!\n* [Project:](#projects) Displays a card for all your project that you've made and also the posibility to link with github or and external link.\n* [Writing:](#writing) Take the information about your medium user and show up to 6 stories as cards with the link to Medium.\n\n作り直したよ",
+  "mediumUser": "@mate.starter",
+  "projects": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hjmyqennm3jj"
+          }
+        },
+        "id": "6Y7EIx73nUCWuoIWcsuM00",
+        "type": "Entry",
+        "createdAt": "2020-05-18T00:49:27.609Z",
+        "updatedAt": "2021-02-04T02:50:58.111Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "project"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Facebook",
+        "publishedDate": "2004-09-01T00:00+02:00",
+        "logo": {
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "hjmyqennm3jj"
+              }
+            },
+            "id": "u3Um4zkMrAaQioyq4oSIW",
+            "type": "Asset",
+            "createdAt": "2020-05-18T00:49:22.216Z",
+            "updatedAt": "2021-02-04T02:50:48.301Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 3,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Facebook logo",
+            "description": "Facebook logo",
+            "file": {
+              "url": "//images.ctfassets.net/hjmyqennm3jj/u3Um4zkMrAaQioyq4oSIW/d2fa5785becb5c80b265319c31a0c1df/600px-Facebook_logo__28square_29.png",
+              "details": {
+                "size": 13209,
+                "image": {
+                  "width": 600,
+                  "height": 600
+                }
+              },
+              "fileName": "600px-Facebook_logo_%28square%29.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "repositoryUrl": "https://github.com/facebook",
+        "description": "Facebook is a popular free social networking website that allows registered users to keep in touch with friends.",
+        "projectUrl": "http://facebook.com/",
+        "type": "Web"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hjmyqennm3jj"
+          }
+        },
+        "id": "2GKNR2f4z6IwAg6a2MmKCc",
+        "type": "Entry",
+        "createdAt": "2020-05-18T00:49:28.294Z",
+        "updatedAt": "2021-02-04T02:50:58.957Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "project"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Gatsby JS",
+        "publishedDate": "2016-09-01T00:00+02:00",
+        "logo": {
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "hjmyqennm3jj"
+              }
+            },
+            "id": "6rkOXCpyvuekYIgy6U6gGu",
+            "type": "Asset",
+            "createdAt": "2020-05-18T00:49:22.947Z",
+            "updatedAt": "2021-02-04T02:50:49.086Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 3,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Gatsby logo",
+            "description": "Gatsby logo",
+            "file": {
+              "url": "//images.ctfassets.net/hjmyqennm3jj/6rkOXCpyvuekYIgy6U6gGu/e78fbe1cd235f9f173afd96fba943aba/1_t5EnAu3eSWJA0rmZ9v3xuw.png",
+              "details": {
+                "size": 111702,
+                "image": {
+                  "width": 1600,
+                  "height": 1600
+                }
+              },
+              "fileName": "1*t5EnAu3eSWJA0rmZ9v3xuw.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "repositoryUrl": "https://github.com/gatsbyjs/gatsby",
+        "description": " Gatsby is a React-based, GraphQL powered, static site generator. Overall think, part Jekyll, part create-react-app.",
+        "projectUrl": "https://www.gatsbyjs.org/",
+        "type": "Framework"
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hjmyqennm3jj"
+          }
+        },
+        "id": "5paxSRHbAkmgMc4WSW8S66",
+        "type": "Entry",
+        "createdAt": "2020-05-18T00:49:29.092Z",
+        "updatedAt": "2021-02-04T02:51:00.225Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "project"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Google",
+        "publishedDate": "1998-06-19T00:00+02:00",
+        "logo": {
+          "sys": {
+            "space": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Space",
+                "id": "hjmyqennm3jj"
+              }
+            },
+            "id": "3AorRmtWOsGQ4o8gK0YWKG",
+            "type": "Asset",
+            "createdAt": "2020-05-18T00:49:20.793Z",
+            "updatedAt": "2021-02-04T02:50:46.934Z",
+            "environment": {
+              "sys": {
+                "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+              }
+            },
+            "revision": 3,
+            "locale": "en-US"
+          },
+          "fields": {
+            "title": "Google Logo",
+            "description": "Logo from Google",
+            "file": {
+              "url": "//images.ctfassets.net/hjmyqennm3jj/3AorRmtWOsGQ4o8gK0YWKG/920ab7436b89fcb7c1cc50549ed47b0c/google_PNG19630.png",
+              "details": {
+                "size": 39228,
+                "image": {
+                  "width": 1000,
+                  "height": 1000
+                }
+              },
+              "fileName": "google_PNG19630.png",
+              "contentType": "image/png"
+            }
+          }
+        },
+        "repositoryUrl": "https://github.com/google",
+        "description": "It is the most-used search engine on the World Wide Web, handling more than three billion searches each day.",
+        "projectUrl": "https://www.google.com/",
+        "type": "Web"
+      }
+    }
+  ],
+  "colors": {
+    "background": "#FFFFFF",
+    "muted": "#f0e6f6",
+    "gray": "#ddd",
+    "text": "#333333",
+    "primary": "#7c37ad",
+    "secondary": "#ff4081",
+    "highlight": "#ff79b0"
+  }
+}
