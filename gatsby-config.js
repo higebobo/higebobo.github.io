@@ -1,31 +1,27 @@
-const contentful = require('contentful');
-const manifestConfig = require('./manifest-config');
+const about = require('./about.json');
+
 require('dotenv').config();
 
 const { ACCESS_TOKEN, SPACE_ID, ANALYTICS_ID, DETERMINISTIC } = process.env;
 
-const client = contentful.createClient({
-  space: SPACE_ID,
-  accessToken: ACCESS_TOKEN,
-});
-
-const getAboutEntry = entry => entry.sys.contentType.sys.id === 'about';
-
 const plugins = [
   'gatsby-plugin-react-helmet',
-  {
-    resolve: 'gatsby-plugin-web-font-loader',
-    options: {
-      google: {
-        families: ['Cabin', 'Open Sans'],
-      },
-    },
-  },
+  'gatsby-plugin-typescript',
+  'gatsby-plugin-styled-components',
+  'gatsby-transformer-remark',
   {
     resolve: 'gatsby-plugin-manifest',
-    options: manifestConfig,
+    options: {
+      name: `${about.name} Portfolio`,
+      short_name: about.name,
+      start_url: '/',
+      background_color: about.colors.background,
+      theme_color: about.colors.primary,
+      display: 'minimal-ui',
+      icon: 'media/icon.png',
+    },
   },
-  'gatsby-plugin-styled-components',
+  'gatsby-plugin-offline',
   {
     resolve: 'gatsby-source-contentful',
     options: {
@@ -33,34 +29,27 @@ const plugins = [
       accessToken: ACCESS_TOKEN,
     },
   },
-  'gatsby-transformer-remark',
-  'gatsby-plugin-offline',
-];
-
-module.exports = client.getEntries().then(entries => {
-  const { mediumUser } = entries.items.find(getAboutEntry).fields;
-
-  plugins.push({
+  {
     resolve: 'gatsby-source-medium',
     options: {
-      username: mediumUser || '@medium',
+      username: about.mediumUser || '@medium',
+    },
+  },
+];
+
+if (ANALYTICS_ID) {
+  plugins.push({
+    resolve: 'gatsby-plugin-google-analytics',
+    options: {
+      trackingId: ANALYTICS_ID,
     },
   });
+}
 
-  if (ANALYTICS_ID) {
-    plugins.push({
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: ANALYTICS_ID,
-      },
-    });
-  }
-
-  return {
-    siteMetadata: {
-      isMediumUserDefined: !!mediumUser,
-      deterministicBehaviour: !!DETERMINISTIC,
-    },
-    plugins,
-  };
-});
+module.exports = {
+  plugins,
+  siteMetadata: {
+    isMediumUserDefined: !!about.mediumUser,
+    deterministic: !!DETERMINISTIC,
+  },
+};
